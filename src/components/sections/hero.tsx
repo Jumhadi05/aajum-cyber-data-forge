@@ -21,7 +21,7 @@ export function Hero() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute inset-0 rounded-full bg-gradient-cyber opacity-20 animate-pulse"></div>
+              <div className="absolute inset-0 rounded-full bg-gradient-cyber opacity-20"></div>
             </div>
           </div>
 
