@@ -26,7 +26,7 @@ export function Skills() {
           {/* Section Title */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="text-cyber-glow">Keahlian</span> & Kompetensi
+              <span className="text-yellow-glow">Keahlian</span> & Kompetensi
             </h2>
             <div className="w-24 h-1 bg-gradient-cyber mx-auto rounded-full"></div>
           </div>
@@ -40,7 +40,7 @@ export function Skills() {
                   <div className="p-2 rounded-lg bg-primary/10 text-primary">
                     <Code className="w-6 h-6" />
                   </div>
-                  <CardTitle className="text-2xl text-cyber-glow">Hard Skills</CardTitle>
+                  <CardTitle className="text-2xl text-yellow-glow">Hard Skills</CardTitle>
                 </div>
               </CardHeader>
               <CardContent>

@@ -45,7 +45,7 @@ export function Navbar() {
           <div className="flex items-center">
             <span className="text-xl font-bold">
               <span className="text-cyber-glow">Ahmad</span>{" "}
-              <span className="text-neon-glow">Jumhadi</span>
+              <span className="text-yellow-glow">Jumhadi</span>
             </span>
           </div>
 

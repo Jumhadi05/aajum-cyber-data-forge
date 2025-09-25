@@ -28,7 +28,7 @@ export function Hero() {
           {/* Name */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 fade-in delay-200">
             <span className="text-cyber-glow">Ahmad</span>{" "}
-            <span className="text-neon-glow">Jumhadi</span>
+            <span className="text-yellow-glow">Jumhadi</span>
           </h1>
 
           {/* Typing Title */}
@@ -50,7 +50,7 @@ export function Hero() {
             <Button className="btn-cyber text-lg px-8 py-4">
               Lihat Portfolio
             </Button>
-            <Button className="btn-neon text-lg px-8 py-4">
+            <Button className="btn-yellow text-lg px-8 py-4">
               Hubungi Saya
             </Button>
           </div>

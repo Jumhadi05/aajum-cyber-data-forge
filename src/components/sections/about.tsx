@@ -8,7 +8,7 @@ export function About() {
           {/* Section Title */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Tentang <span className="text-cyber-glow">Saya</span>
+              Tentang <span className="text-yellow-glow">Saya</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-cyber mx-auto rounded-full"></div>
           </div>

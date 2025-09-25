@@ -10,7 +10,7 @@ export function Contact() {
           {/* Section Title */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Mari <span className="text-neon-glow">Terhubung</span>
+              Mari <span className="text-yellow-glow">Terhubung</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-cyber mx-auto rounded-full"></div>
             <p className="text-muted-foreground text-lg mt-6 max-w-2xl mx-auto">
@@ -35,7 +35,7 @@ export function Contact() {
 
                 {/* LinkedIn Button */}
                 <Button 
-                  className="btn-neon text-base px-6 py-3 flex items-center gap-3"
+                  className="btn-yellow text-base px-6 py-3 flex items-center gap-3"
                   onClick={() => window.open('#', '_blank')}
                 >
                   <Linkedin className="w-5 h-5" />

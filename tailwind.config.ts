@@ -53,6 +53,8 @@ export default {
           "blue-glow": "hsl(var(--cyber-blue-glow))",
           green: "hsl(var(--neon-green))",
           "green-glow": "hsl(var(--neon-green-glow))",
+          yellow: "hsl(var(--electric-yellow))",
+          "yellow-glow": "hsl(var(--electric-yellow-glow))",
         },
         surface: {
           DEFAULT: "hsl(var(--dark-surface))",
@@ -67,6 +69,7 @@ export default {
       boxShadow: {
         'cyber': 'var(--shadow-cyber)',
         'neon': 'var(--shadow-neon)',
+        'yellow': 'var(--shadow-yellow)',
         'elegant': 'var(--shadow-elegant)',
       },
       transitionProperty: {
