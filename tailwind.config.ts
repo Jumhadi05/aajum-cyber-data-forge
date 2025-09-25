@@ -47,16 +47,31 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        // Custom cyber colors
+        cyber: {
+          blue: "hsl(var(--cyber-blue))",
+          "blue-glow": "hsl(var(--cyber-blue-glow))",
+          green: "hsl(var(--neon-green))",
+          "green-glow": "hsl(var(--neon-green-glow))",
         },
+        surface: {
+          DEFAULT: "hsl(var(--dark-surface))",
+          darker: "hsl(var(--darker-surface))",
+        },
+      },
+      backgroundImage: {
+        'gradient-cyber': 'var(--gradient-cyber)',
+        'gradient-dark': 'var(--gradient-dark)',
+        'gradient-glow': 'var(--gradient-glow)',
+      },
+      boxShadow: {
+        'cyber': 'var(--shadow-cyber)',
+        'neon': 'var(--shadow-neon)',
+        'elegant': 'var(--shadow-elegant)',
+      },
+      transitionProperty: {
+        'smooth': 'var(--transition-smooth)',
+        'glow': 'var(--transition-glow)',
       },
       borderRadius: {
         lg: "var(--radius)",
